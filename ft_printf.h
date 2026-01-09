@@ -22,7 +22,6 @@
 
 int		ft_printf(const char *chaine, ...) __attribute__((format(printf, 1,
 					2)));
-// int		ft_printf(const char *chaine, ...);
 int		ft_find_conv(char c, va_list *args);
 int		ft_putstr(char *s);
 int		ft_putstr_pointeur(unsigned long long p);
